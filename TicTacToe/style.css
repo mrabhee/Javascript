@@ -1,0 +1,56 @@
+body{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 600px;
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.box{
+    font-size: 100px;
+    font-family: sans-serif;
+    background-color: gray;
+    border: 5px solid white;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.btn , .ngame{
+    padding: 10px 20px;
+    background-color: gray;
+    border: none;
+    border-radius:15px ;
+    margin: 10px;
+    
+}
+.btn:hover{
+    border: 2px  solid black;
+}
+
+.closed{
+    pointer-events: none;
+}
+
+.hide , .ngame{
+    display: none;
+}
+.text{
+    display: none;
+}
+.show{
+    display: block;
+}

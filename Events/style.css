@@ -1,0 +1,35 @@
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 5px solid black;
+    margin: 10px;
+    
+}
+
+.blue{
+    background-color: blue;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 5px solid black;
+    margin: 10px;
+    }
+    
+    .box2inner{
+        font-size: 30px;
+        text-align: center;
+        color: cornflowerblue;
+       
+        } */
+/* .btn {
+    color: red;
+} */
+
+.bodydark{
+    background-color: gray;
+    color: white;
+}
